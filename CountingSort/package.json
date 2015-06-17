@@ -1,0 +1,10 @@
+{
+  "name": "CountingSort",
+  "version": "0.0.0",
+  "description": "CountingSort",
+  "main": "app.js",
+  "author": {
+    "name": "ajones",
+    "email": ""
+  }
+}
