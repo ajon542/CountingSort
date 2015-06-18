@@ -5,13 +5,15 @@ Implementation of the counting sort algorithm presented in the MIT "Introduction
 
 ```javascript
 
+var countingSort = require('./countingSort.js');
+
 // Construct input [0, 5], therefore an array of size 6 is needed
 // for the temporary storage space.
 var input = [2, 5, 3, 0, 2, 3, 0, 3];
 var result = [];
 
 // Sort.
-CountingSort(input, result, 6);
+countingSort(input, result, 6);
 
 // Print the sorted array.
 console.log(result);
