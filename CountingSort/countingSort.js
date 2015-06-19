@@ -35,7 +35,7 @@ function countingSort(a, b, k) {
     // from the rightmost side first, hence the algorithm is
     // stable.
     for (var j = a.length - 1; j >= 0; --j) {
-        b[c[a[j]]] = a[j];
+        b[c[a[j]] - 1] = a[j];
         c[a[j]]--;
     }
 }
